@@ -6,6 +6,7 @@
    <Item type="Access" id="53A32861D949462EAD20EDCCE1F6BFCB" action="add">
     <can_change_access>0</can_change_access>
     <can_delete>1</can_delete>
+    <can_discover>0</can_discover>
     <can_get>1</can_get>
     <can_update>1</can_update>
     <related_id keyed_name="World" type="Identity">
@@ -13,6 +14,7 @@
       <name>World</name>
      </Item>
     </related_id>
+    <show_permissions_warning>0</show_permissions_warning>
     <sort_order>128</sort_order>
     <source_id keyed_name="RAT Project Baselined" type="Permission">B0A9864CB1A14CC889F38251C34C5807</source_id>
    </Item>

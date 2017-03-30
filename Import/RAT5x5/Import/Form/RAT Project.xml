@@ -24,7 +24,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Total Cost: </label>
+      <label xml:lang="en">Total Cost: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>cost</name>
@@ -47,7 +47,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Description</label>
+      <label xml:lang="en">Description</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>description</name>
@@ -104,7 +104,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>RAT #</label>
+      <label xml:lang="en">RAT #</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>item_number</name>
@@ -128,7 +128,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Rev</label>
+      <label xml:lang="en">Rev</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>major_rev</name>
@@ -151,7 +151,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>1</is_disabled>
       <is_visible>1</is_visible>
-      <label>Max Risk: </label>
+      <label xml:lang="en">Max Risk: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>max_rating</name>
@@ -175,7 +175,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Name</label>
+      <label xml:lang="en">Name</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>name</name>
@@ -254,9 +254,9 @@
 </table>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>5x5 Plot</label>
+      <label xml:lang="en">5x5 Plot</label>
       <label_position>top</label_position>
-      <legend></legend>
+      <legend xml:lang="en"></legend>
       <list_no_blank>0</list_no_blank>
       <name>risk_plot</name>
       <positioning>absolute</positioning>
@@ -278,7 +278,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>state</name>

@@ -3,31 +3,31 @@
   <name>RAT Technical Impact</name>
   <Relationships>
    <Item type="Value" id="EA45E5EE35F94569A80ADE27D97F899C" action="add">
-    <label>1</label>
+    <label xml:lang="en">1</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="RAT Technical Impact" type="List">B09A2436211B4939BB5E0A031AA48D1E</source_id>
     <value>1</value>
    </Item>
    <Item type="Value" id="4DC96A6E6C6C410386E3F9AF659475F8" action="add">
-    <label>2</label>
+    <label xml:lang="en">2</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="RAT Technical Impact" type="List">B09A2436211B4939BB5E0A031AA48D1E</source_id>
     <value>2</value>
    </Item>
    <Item type="Value" id="7980CB0B4B894DDFAAA9148941738C9E" action="add">
-    <label>3</label>
+    <label xml:lang="en">3</label>
     <sort_order>3</sort_order>
     <source_id keyed_name="RAT Technical Impact" type="List">B09A2436211B4939BB5E0A031AA48D1E</source_id>
     <value>3</value>
    </Item>
    <Item type="Value" id="B217E4D94B334B28B807BF69608AA029" action="add">
-    <label>4</label>
+    <label xml:lang="en">4</label>
     <sort_order>4</sort_order>
     <source_id keyed_name="RAT Technical Impact" type="List">B09A2436211B4939BB5E0A031AA48D1E</source_id>
     <value>4</value>
    </Item>
    <Item type="Value" id="4F5B1E7DD3734CE38B7D75019CF7550C" action="add">
-    <label>5</label>
+    <label xml:lang="en">5</label>
     <sort_order>5</sort_order>
     <source_id keyed_name="RAT Technical Impact" type="List">B09A2436211B4939BB5E0A031AA48D1E</source_id>
     <value>5</value>

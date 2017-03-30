@@ -1,6 +1,6 @@
 ﻿<AML>
  <Item type="SQL" id="F62515F0881A4619BCE07DDC51BF2592" action="add">
-  <execution_count>3</execution_count>
+  <execution_count>0</execution_count>
   <execution_flag>manual</execution_flag>
   <name>RAT_Risk_Rollup</name>
   <old_name>RAT_Risk_Rollup</old_name>
@@ -17,7 +17,7 @@ RAT_Worksheet.source_id=RAT_Project.id)
 from RAT_Project, inserted
 where RAT_Project.id=inserted.id
 ]]></sqlserver_body>
-  <stale>0</stale>
+  <stale>1</stale>
   <transform_first>0</transform_first>
   <type>trigger</type>
  </Item>

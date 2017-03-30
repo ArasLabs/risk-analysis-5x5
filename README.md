@@ -12,6 +12,7 @@ This project and the following release notes have been migrated from the old Ara
 
 Release | Notes
 --------|--------
+[v3](https://github.com/ArasLabs/risk-analysis-5x5/releases/tag/v3) | Enhanced and with bug fixes. All graphics and rollups are now working.
 [v2](https://github.com/ArasLabs/risk-analysis-5x5/releases/tag/v2) | Enhanced and with bug fixes. All graphics and rollups are now working. For 8.2.0 and 9.0.1
 [v1](https://github.com/ArasLabs/risk-analysis-5x5/releases/tag/v1) | First baseline release. Can be Imported into 8.2.0 or 9.0.1.
 
@@ -19,6 +20,7 @@ Release | Notes
 
 Project | Aras
 --------|------
+[v3](https://github.com/ArasLabs/risk-analysis-5x5/releases/tag/v3) | 8.2.0, 9.0.1
 [v2](https://github.com/ArasLabs/risk-analysis-5x5/releases/tag/v2) | 8.2.0, 9.0.1
 [v1](https://github.com/ArasLabs/risk-analysis-5x5/releases/tag/v1) | 8.2.0, 9.0.1
 

@@ -22,7 +22,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Comments: </label>
+      <label xml:lang="en">Comments: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>comments</name>
@@ -47,7 +47,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Consequence (THEN):</label>
+      <label xml:lang="en">Consequence (THEN):</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>consequence</name>
@@ -73,7 +73,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Funding</label>
+      <label xml:lang="en">Funding</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>contingency_funding</name>
@@ -96,7 +96,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Contingency Plan: </label>
+      <label xml:lang="en">Contingency Plan: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>contingency_plan</name>
@@ -173,7 +173,7 @@
 ]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Cost Impact</label>
+      <label xml:lang="en">Cost Impact</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>costimpact</name>
@@ -194,7 +194,6 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label></label>
       <list_no_blank>0</list_no_blank>
       <name>execution_risk_c</name>
       <positioning>absolute</positioning>
@@ -216,7 +215,6 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label></label>
       <list_no_blank>0</list_no_blank>
       <name>execution_risk_m</name>
       <positioning>absolute</positioning>
@@ -238,7 +236,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Initial Risk Assessment:</label>
+      <label xml:lang="en">Initial Risk Assessment:</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>initial_risk</name>
@@ -293,7 +291,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Execution Risk Assessment:</label>
+      <label xml:lang="en">Execution Risk Assessment:</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>label1</name>
@@ -314,7 +312,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Current Risk Assessment</label>
+      <label xml:lang="en">Current Risk Assessment</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>label2</name>
@@ -335,7 +333,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Mitigated Risk Assessment</label>
+      <label xml:lang="en">Mitigated Risk Assessment</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>label3</name>
@@ -356,7 +354,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Consequences Of Risk Trigger Occurence</label>
+      <label xml:lang="en">Consequences Of Risk Trigger Occurence</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>label4</name>
@@ -377,7 +375,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Mitigation Plan: </label>
+      <label xml:lang="en">Mitigation Plan: </label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>mitigation</name>
@@ -402,7 +400,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Status</label>
+      <label xml:lang="en">Status</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>mitigation_status</name>
@@ -477,7 +475,7 @@
 ]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Probability Of RIsk Trigger Occurrence</label>
+      <label xml:lang="en">Probability Of RIsk Trigger Occurrence</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>probaility</name>
@@ -553,7 +551,7 @@
 </table>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <legend>&lt;b&gt;5x5 Plot&lt;/b&gt;</legend>
+      <legend xml:lang="en">&lt;b&gt;5x5 Plot&lt;/b&gt;</legend>
       <list_no_blank>0</list_no_blank>
       <name>risk_plot</name>
       <positioning>absolute</positioning>
@@ -574,7 +572,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Risk Trigger (IF):</label>
+      <label xml:lang="en">Risk Trigger (IF):</label>
       <label_position>left</label_position>
       <list_no_blank>0</list_no_blank>
       <name>risk_tirgger</name>
@@ -600,7 +598,7 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Risk ID</label>
+      <label xml:lang="en">Risk ID</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>riskid</name>
@@ -677,7 +675,7 @@
 ]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Schedule Impact</label>
+      <label xml:lang="en">Schedule Impact</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>scheudle</name>
@@ -707,7 +705,7 @@
 1= Minimal or No Impact]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label>Technical Impact</label>
+      <label xml:lang="en">Technical Impact</label>
       <label_position>top</label_position>
       <list_no_blank>0</list_no_blank>
       <name>technical</name>
@@ -728,7 +726,6 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label></label>
       <list_no_blank>0</list_no_blank>
       <name>technical_impact_c</name>
       <positioning>absolute</positioning>
@@ -750,7 +747,6 @@
       <font_weight>bold</font_weight>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <label></label>
       <list_no_blank>0</list_no_blank>
       <name>technical_impact_m</name>
       <positioning>absolute</positioning>

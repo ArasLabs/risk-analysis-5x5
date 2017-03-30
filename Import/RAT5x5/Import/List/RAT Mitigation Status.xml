@@ -3,26 +3,26 @@
   <name>RAT Mitigation Status</name>
   <Relationships>
    <Item type="Value" id="716D1CB0E39344C39D8EF3EB59B0B8DF" action="add">
-    <label>Abandoned</label>
+    <label xml:lang="en">Abandoned</label>
     <sort_order>4</sort_order>
     <source_id keyed_name="RAT Mitigation Status" type="List">ECB45DBC51F84A17AC9E596DC6370AAD</source_id>
     <value>Abandoned</value>
    </Item>
   
    <Item type="Value" id="1FFC839CDE4A4FB6B2C83988829ADE19" action="add">
-    <label>Failed</label>
+    <label xml:lang="en">Failed</label>
     <sort_order>3</sort_order>
     <source_id keyed_name="RAT Mitigation Status" type="List">ECB45DBC51F84A17AC9E596DC6370AAD</source_id>
     <value>Failed</value>
    </Item>
    <Item type="Value" id="4267F945AD714369846F09EA12EF37BB" action="add">
-    <label>Open</label>
+    <label xml:lang="en">Open</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="RAT Mitigation Status" type="List">ECB45DBC51F84A17AC9E596DC6370AAD</source_id>
     <value>Open</value>
    </Item>
    <Item type="Value" id="0C08CE91A5494FC6B61DA379642499B4" action="add">
-    <label>Successful</label>
+    <label xml:lang="en">Successful</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="RAT Mitigation Status" type="List">ECB45DBC51F84A17AC9E596DC6370AAD</source_id>
     <value>Successful</value>

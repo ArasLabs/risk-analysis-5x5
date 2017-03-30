@@ -3,20 +3,20 @@
   <name>RAT Risk Level</name>
   <Relationships>
    <Item type="Value" id="06E2769423AB4B7FA88F0F3877F0B358" action="add">
-    <label>H</label>
+    <label xml:lang="en">H</label>
     <sort_order>1</sort_order>
     <source_id keyed_name="RAT Risk Level" type="List">15561EAFE75E4C908798A0DA0D0B4076</source_id>
     <value>H</value>
    </Item>
    <Item type="Value" id="E68118CC191C4E69B22A1B855022F397" action="add">
-    <label>L</label>
+    <label xml:lang="en">L</label>
     <sort_order>3</sort_order>
     <source_id keyed_name="RAT Risk Level" type="List">15561EAFE75E4C908798A0DA0D0B4076</source_id>
     <value>L</value>
    </Item>
   
    <Item type="Value" id="A9F941B491884EE082A1877153917019" action="add">
-    <label>M</label>
+    <label xml:lang="en">M</label>
     <sort_order>2</sort_order>
     <source_id keyed_name="RAT Risk Level" type="List">15561EAFE75E4C908798A0DA0D0B4076</source_id>
     <value>M</value>

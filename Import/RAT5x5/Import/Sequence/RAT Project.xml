@@ -1,6 +1,6 @@
 ﻿<AML>
  <Item type="Sequence" id="E1B327ED71E94CFBBD165BB24D321BA6" action="add">
-  <current_value>7</current_value>
+  <initial_value>0</initial_value>
   <name>RAT Project</name>
   <pad_to>4</pad_to>
   <pad_with>0</pad_with>
