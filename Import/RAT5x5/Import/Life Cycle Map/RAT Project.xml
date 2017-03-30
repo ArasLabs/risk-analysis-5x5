@@ -1,0 +1,45 @@
+﻿<AML>
+ <Item type="Life Cycle Map" id="5ADA816917014AF9ACA0A8E9D204E725" action="add">
+  <name>RAT Project</name>
+  <start_state keyed_name="Evaluating" type="Life Cycle State">AC3BB64B306347E9AD60AEAA405EC9C3</start_state>
+  <Relationships>
+   <Item type="Life Cycle State" id="2854F6269CC7468CB5F37B3C15DAC440" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <item_behavior>fixed</item_behavior>
+    <name>Baselined</name>
+    <set_is_released>1</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>256</sort_order>
+    <source_id keyed_name="RAT Project" type="Life Cycle Map">5ADA816917014AF9ACA0A8E9D204E725</source_id>
+    <state_permission_id keyed_name="RAT Project Baselined" type="Permission">B0A9864CB1A14CC889F38251C34C5807</state_permission_id>
+    <x>279</x>
+    <y>42</y>
+   </Item>
+   <Item type="Life Cycle State" id="AC3BB64B306347E9AD60AEAA405EC9C3" action="add">
+    <image>../images/icons/20x20/20x15_lifecycle.gif</image>
+    <name>Evaluating</name>
+    <set_is_released>0</set_is_released>
+    <set_not_lockable>0</set_not_lockable>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RAT Project" type="Life Cycle Map">5ADA816917014AF9ACA0A8E9D204E725</source_id>
+    <x>78</x>
+    <y>42</y>
+   </Item>
+   <Item type="Life Cycle Transition" id="0DEE4F8448894A2C9923AF4294229805" action="add">
+    <from_state keyed_name="Evaluating" type="Life Cycle State">AC3BB64B306347E9AD60AEAA405EC9C3</from_state>
+    <get_comment>0</get_comment>
+    <role keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </role>
+    <segments></segments>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RAT Project" type="Life Cycle Map">5ADA816917014AF9ACA0A8E9D204E725</source_id>
+    <to_state keyed_name="Baselined" type="Life Cycle State">2854F6269CC7468CB5F37B3C15DAC440</to_state>
+    <x>71</x>
+    <y>15</y>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

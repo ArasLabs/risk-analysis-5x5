@@ -1,0 +1,446 @@
+﻿<AML>
+ <Item type="RelationshipType" id="F90EACA798264AC0A974CC614CF4518C" action="add" dependencyLevel="0">
+  <auto_search>1</auto_search>
+  <behavior>float</behavior>
+  <copy_permissions>0</copy_permissions>
+  <create_related>0</create_related>
+  <hide_in_all>0</hide_in_all>
+  <inc_rel_key_name>1</inc_rel_key_name>
+  <inc_related_key_name>1</inc_related_key_name>
+  <is_list_type>0</is_list_type>
+  <label>Worksheets</label>
+  <name>RAT Worksheet</name>
+  <new_show_related>1</new_show_related>
+  <related_notnull>0</related_notnull>
+  <related_option>1</related_option>
+  <relationship_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">
+   <Item type="ItemType" id="5334BF42DA1C4E14887167B728047A8A" action="add">
+    <allow_private_permission>0</allow_private_permission>
+    <auto_search>0</auto_search>
+    <default_lifecycle keyed_name="Default" type="Life Cycle Map">2F3B75E17C4E4F2D9599579A965BFA64</default_lifecycle>
+    <hide_where_used>0</hide_where_used>
+    <implementation_type>table</implementation_type>
+    <instance_data>RAT_WORKSHEET</instance_data>
+    <is_dependent>0</is_dependent>
+    <is_relationship>1</is_relationship>
+    <is_versionable>0</is_versionable>
+    <large_icon>../images/Icons/32x32/22x32_clipbrd.gif</large_icon>
+    <manual_versioning>0</manual_versioning>
+    <name>RAT Worksheet</name>
+    <revisions keyed_name="Default" type="Revision">7FE395DD8B9F4E1090756A34B733D75E</revisions>
+    <save_history>0</save_history>
+    <show_parameters_tab>1</show_parameters_tab>
+    <unlock_on_logout>0</unlock_on_logout>
+    <use_src_access>1</use_src_access>
+    <Relationships>
+     <Item type="Property" id="3BB992D4042946D6AE4BC691B8E1AF00" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>150</column_width>
+      <data_type>text</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Comments</label>
+      <name>comments</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>35</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="EA86AAE575E14305A29420CEA12940A6" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>200</column_width>
+      <data_type>text</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Consequence (THEN)</label>
+      <name>consequence</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>8</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="7994A9F4601E47E5B16DFCFDCBED9C20" action="add">
+      <column_alignment>right</column_alignment>
+      <column_width>100</column_width>
+      <data_type>decimal</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Funding</label>
+      <name>contingency_funding</name>
+      <prec>15</prec>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <scale>2</scale>
+      <sort_order>21</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="C20734A419EE4C06B8BDBF562729A546" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>200</column_width>
+      <data_type>text</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Contingency Plan</label>
+      <name>contingency_plan</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>20</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="C25013A36D43428EB50CC175781251D7" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigated</label>
+      <name>cost_impact_c</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>61</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="9BD717A85F3C4D2FAB09A699DC4DA048" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Cost Impact</label>
+      <name>cost_impact_m</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>60</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="DE995ADCF1D94C7C92F178C129AB04E1" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Risk Level">15561EAFE75E4C908798A0DA0D0B4076</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Execution Risk</label>
+      <name>execution_risk_c</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>38</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="E5408A2996594AB5A4D4CB660651DA30" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Risk Level">15561EAFE75E4C908798A0DA0D0B4076</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigated</label>
+      <name>execution_risk_m</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>39</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="9ABDEB7F829F426BA9E6C69D8A921BD9" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Risk Level">15561EAFE75E4C908798A0DA0D0B4076</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Initial Assessment</label>
+      <name>initial_risk</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>30</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="E30502085D5B493F988ACA14BCAC03E7" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>200</column_width>
+      <data_type>text</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigation</label>
+      <name>mitigation</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>10</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="6F905BEC0C994EADAE340764A69974FC" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Mitigation Status">ECB45DBC51F84A17AC9E596DC6370AAD</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Status</label>
+      <name>mitigation_status</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>11</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="DCE3AD7685824054BFCA647E8F8F4DD5" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Probability</label>
+      <name>probability_c</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>70</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="08B1C09C887E42DE905322695D8150B8" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigated</label>
+      <name>probability_m</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>71</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="8DDF4E82127446BEA2041BC753F5BA51" action="add">
+      <column_alignment>left</column_alignment>
+      <data_type>text</data_type>
+      <is_hidden>1</is_hidden>
+      <is_hidden2>1</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Risk Plot</label>
+      <name>risk_plot</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>3584</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="79D6E2F46CC44766A89344AA5AF2D5C1" action="add">
+      <column_alignment>left</column_alignment>
+      <column_width>200</column_width>
+      <data_type>text</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Trigger(IF)</label>
+      <name>risk_trigger</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>4</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="51ED12D7789F42DFA3AD0D97FAA74AF1" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>60</column_width>
+      <data_type>string</data_type>
+      <default_value>1</default_value>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Risk ID</label>
+      <name>riskid</name>
+      <order_by>1</order_by>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>2</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+      <stored_length>8</stored_length>
+     </Item>
+     <Item type="Property" id="70A7720FC1A54283AB57A329ECB3748F" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Schedule Impact</label>
+      <name>schedule_impact_c</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>50</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="9F33D84FECC341B6B31A67AFEE9C897C" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigated</label>
+      <name>schedule_impact_m</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>51</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="1F42843F03DB48E9A4B5FB010CBEDD14" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Technical Impact</label>
+      <name>technical_impact_c</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>45</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="8BCBAF53EF6D47E8BD07237EE657641F" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigated</label>
+      <name>technical_impact_m</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>46</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="2B813024AEFA44E6BC8359C242C51167" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Worst Risk</label>
+      <name>worst_c</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>80</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="Property" id="ADEB5FF6D27946AA84442E346B7CE7DE" action="add">
+      <column_alignment>center</column_alignment>
+      <column_width>90</column_width>
+      <data_source keyed_name="RAT Technical Impact">B09A2436211B4939BB5E0A031AA48D1E</data_source>
+      <data_type>list</data_type>
+      <is_hidden>0</is_hidden>
+      <is_hidden2>0</is_hidden2>
+      <is_indexed>0</is_indexed>
+      <is_keyed>0</is_keyed>
+      <is_multi_valued>0</is_multi_valued>
+      <is_required>0</is_required>
+      <label>Mitigated</label>
+      <name>worst_m</name>
+      <range_inclusive>0</range_inclusive>
+      <readonly>0</readonly>
+      <sort_order>81</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+     </Item>
+     <Item type="View" id="C97571A0CDB943018B32EA8922A07DC1" action="add">
+      <client>js</client>
+      <related_id keyed_name="RAT Worksheet" type="Form">F2A25AC2CB184DB5807A2EF86C6266A2</related_id>
+      <role keyed_name="World" type="Identity">
+       <Item type="Identity" action="get" select="id">
+        <name>World</name>
+       </Item>
+      </role>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="RAT Worksheet" type="ItemType" name="RAT Worksheet">5334BF42DA1C4E14887167B728047A8A</source_id>
+      <type>default</type>
+     </Item>
+    </Relationships>
+   </Item>
+  </relationship_id>
+  <sort_order>2</sort_order>
+  <source_id keyed_name="RAT Project" type="ItemType" name="RAT Project">0758FBF6B8734E10839B1D12C083F98F</source_id>
+ </Item>
+</AML>

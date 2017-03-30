@@ -1,0 +1,311 @@
+﻿<AML>
+ <Item type="Form" id="AC11900EA3924069B71702283AC8572E" action="add">
+  <height>320</height>
+  <name>RAT Project</name>
+  <stylesheet><![CDATA[../styles/default.css]]></stylesheet>
+  <width>900</width>
+  <Relationships>
+   <Item type="Body" id="8D5D1F86AAEC4F7782C84C8E0D95CE20" action="add">
+    <bg_attach>scroll</bg_attach>
+    <bg_color>#FFFFFF</bg_color>
+    <bg_image>../images/Backgrounds/wvleft.gif</bg_image>
+    <bg_repeat>no-repeat</bg_repeat>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RAT Project" type="Form">AC11900EA3924069B71702283AC8572E</source_id>
+    <Relationships>
+     <Item type="Field" id="386CB64B004C42F7A1792283C976BB77" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>12</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Total Cost: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>cost</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="cost" type="Property">3638F547D42F43F5B94919B53D9ECD22</propertytype_id>
+      <sort_order>512</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>20</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>186</x>
+      <y>169</y>
+     </Item>
+     <Item type="Field" id="E5FCF55583544044A2993058B7F7A819" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>textarea</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Description</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>description</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="description" type="Property">07914307C6104C728A824A1B4486DCDC</propertytype_id>
+      <sort_order>384</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>10</tab_index>
+      <tab_stop>1</tab_stop>
+      <textarea_cols>64</textarea_cols>
+      <textarea_rows>4</textarea_rows>
+      <x>189</x>
+      <y>90</y>
+     </Item>
+     <Item type="Field" id="AE87BF2F8A0B4525A17E2A13F835F63A" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <field_type>html</field_type>
+      <html_code><![CDATA[<table border='0' cellspacing='0' cellpadding='0'>
+<tr><td colspan='2'>
+<script>
+  document.write('<img hspace="20" vspace="20" src="' + top.aras.getItemProperty(document.itemType,'large_icon') + '">');
+</Script>
+</td></tr>
+<tr><td colspan='2'><img src='../images/lines/wvline.gif'></td></tr>
+<tr><td colspan='2'><img src='../images/icons/other/1x1.gif' width='1' height='10'></td></tr>
+<tr><td><img src='../images/icons/other/1x1.gif' width='20' height='1'>
+<td width='150'><p class='vbig'><b>
+<script>
+  var labelIT = top.aras.getItemProperty(document.itemType, 'label'); 
+  if (labelIT == '') labelIT = document.itemTypeName; 
+  document.write(labelIT);
+</Script>
+</b></p>
+</td></tr></table>
+]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <list_no_blank>0</list_no_blank>
+      <name>item_info</name>
+      <positioning>absolute</positioning>
+      <sort_order>768</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_stop>0</tab_stop>
+      <x>0</x>
+      <y>0</y>
+     </Item>
+     <Item type="Field" id="69BD79111AB040F8B27C88A254C85877" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>RAT #</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>item_number</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="item_number" type="Property">62BA4B916D6F4CEE9241E7C577BC53E2</propertytype_id>
+      <sort_order>128</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>1</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>190</x>
+      <y>10</y>
+     </Item>
+     <Item type="Field" id="6BC891949BF842ADB6A86E07BE04E2EE" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>4</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Rev</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>major_rev</name>
+      <positioning>absolute</positioning>
+      <sort_order>1024</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>1822</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>330</x>
+      <y>9</y>
+     </Item>
+     <Item type="Field" id="5488A50348A44A6690B083461B3D494C" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>6</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Max Risk: </label>
+      <label_position>left</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>max_rating</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="max_rating" type="Property">2896BEC40BEF4C9BBAFE42B7C4F54712</propertytype_id>
+      <sort_order>640</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>30</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>420</x>
+      <y>169</y>
+     </Item>
+     <Item type="Field" id="072B6512054944C3A31A03F847BA853E" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <display_length>64</display_length>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Name</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>name</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="name" type="Property">A04ADF1B65B84C7987005BD4F0C17BEB</propertytype_id>
+      <sort_order>256</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>8</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>189</x>
+      <y>50</y>
+     </Item>
+     <Item type="Field" id="198BE45775D84153B89EF64918786D44" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>html</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <html_code><![CDATA[<table width="220" height="180" border="0" cellpadding="0"  cellspacing="0" style="font-size:7pt; font-family: tahoma, arial, helvetica, sans-serif;text-decoration: none; background-color:beige;">
+<tr >
+	<td width="14%" style="border-top:solid 1px #060;border-left:solid 1px #060;"> &nbsp; </td>
+	<td width="14%" style="border-top:solid 1px #060"> &nbsp; </td>
+	<td colspan="5" align="center" style="border-top:solid 1px #060;border-right:solid 1px #060"> <b>Consequence</b> </td>
+</tr>
+<tr>
+	<td colspan="2" align="center" style="border-left:solid 1px #060;"> &nbsp; </td>
+	<td width="14%" align="center" style="background-color: blue; border:solid 1px #060"> <b>1</b> </td>
+	<td width="14%" align="center" style="background-color: blue; border:solid 1px #060"> <b>2</b> </td>
+	<td width="14%" align="center" style="background-color: blue; border:solid 1px #060"> <b>3</b> </td>
+	<td width="14%" align="center" style="background-color: blue; border:solid 1px #060"> <b>4</b> </td>
+	<td width="14%" align="center" style="background-color: blue; border:solid 1px #060"> <b>5</b> </td>
+</tr>
+<tr>
+	<td align="center" rowspan="5" style="border-left:solid 1px #060;border-bottom:solid 1px #060;"><b> P<br>r<br>o<br>b<br>a<br>b<br>i<br>l<br>i<br>t<br>y </b></td>
+	<td align="center" style="background-color: blue; border:solid 1px #060">    <b>5</b> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060;"> <span id="r51">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060;"> <span id="r52">&nbsp;</span> </td>
+	<td align="center" style="background-color: #FF0033; border:solid 1px #060;">    <span id="r53">&nbsp;</span> </td>
+	<td align="center" style="background-color: #FF0033; border:solid 1px #060;">    <span id="r54">&nbsp;</span> </td>
+	<td align="center" style="background-color: #FF0033; border:solid 1px #060;">    <span id="r55">&nbsp;</span> </td>
+</tr>
+<tr>
+	<td align="center" style="background-color: blue; border:solid 1px #060"> <b>4</b> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060">  <span id="r41">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r42">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r43">&nbsp;</span> </td>
+	<td align="center" style="background-color: #FF0033; border:solid 1px #060">    <span id="r44">&nbsp;</span> </td>
+	<td align="center" style="background-color: #FF0033; border:solid 1px #060">   <span id="r45">&nbsp;</span> </td>
+</tr>
+<tr>
+	<td align="center" style="background-color: blue; border:solid 1px #060"><b>3</b> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r31">&nbsp;</span> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r32">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r33">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r34">&nbsp;</span> </td>
+	<td align="center" style="background-color: #FF0033; border:solid 1px #060"> <span id="r35">&nbsp;</span> </td>
+</tr>
+<tr>
+	<td align="center" style="background-color: blue; border:solid 1px #060"> <b>2</b> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r21">&nbsp;</span> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r22">&nbsp;</span> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060">  <span id="r23">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r24">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r25">&nbsp;</span> </td>
+</tr>
+<tr>
+	<td align="center" style="background-color: blue; border:solid 1px #060"> <b>1</b> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r11">&nbsp;</span> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r12">&nbsp;</span> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r13">&nbsp;</span> </td>
+	<td align="center" style="background-color: #00FF33; border:solid 1px #060"> <span id="r14">&nbsp;</span> </td>
+	<td align="center" style="background-color: yellow; border:solid 1px #060"> <span id="r15">&nbsp;</span> </td>
+</tr>
+</table>]]></html_code>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <legend>5x5 Plot</legend>
+      <list_no_blank>0</list_no_blank>
+      <name>risk_plot</name>
+      <positioning>absolute</positioning>
+      <propertytype_id keyed_name="risk_plot" type="Property">E438E9C6A250427D8585D2BA5189CE8F</propertytype_id>
+      <sort_order>1152</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>3486</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>553</x>
+      <y>6</y>
+     </Item>
+     <Item type="Field" id="9B2B29E32DDE4BAD83E6AADBADE95EE6" action="add">
+      <bg_color>#FFFFFF</bg_color>
+      <border_width>0</border_width>
+      <field_type>text</field_type>
+      <font_color>#000000</font_color>
+      <font_family>arial, helvetica, sans-serif</font_family>
+      <font_size>8pt</font_size>
+      <font_weight>bold</font_weight>
+      <is_disabled>0</is_disabled>
+      <is_visible>1</is_visible>
+      <label>Status</label>
+      <label_position>top</label_position>
+      <list_no_blank>0</list_no_blank>
+      <name>state</name>
+      <positioning>absolute</positioning>
+      <sort_order>896</sort_order>
+      <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
+      <tab_index>1438</tab_index>
+      <tab_stop>1</tab_stop>
+      <x>407</x>
+      <y>9</y>
+     </Item>
+    </Relationships>
+   </Item>
+  </Relationships>
+ </Item>
+ <Item type="Field" id="6BC891949BF842ADB6A86E07BE04E2EE" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>major_rev</name>
+    <source_id type="ItemType" keyed_name="RAT Project">0758FBF6B8734E10839B1D12C083F98F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+ <Item type="Field" id="9B2B29E32DDE4BAD83E6AADBADE95EE6" action="edit">
+  <propertytype_id>
+   <Item type="Property" action="get" select="id">
+    <name>state</name>
+    <source_id type="ItemType" keyed_name="RAT Project">0758FBF6B8734E10839B1D12C083F98F</source_id>
+   </Item>
+  </propertytype_id>
+ </Item>
+</AML>

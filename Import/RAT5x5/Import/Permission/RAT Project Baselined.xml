@@ -1,0 +1,21 @@
+﻿<AML>
+ <Item type="Permission" id="B0A9864CB1A14CC889F38251C34C5807" action="add">
+  <is_private>0</is_private>
+  <name>RAT Project Baselined</name>
+  <Relationships>
+   <Item type="Access" id="53A32861D949462EAD20EDCCE1F6BFCB" action="add">
+    <can_change_access>0</can_change_access>
+    <can_delete>1</can_delete>
+    <can_get>1</can_get>
+    <can_update>1</can_update>
+    <related_id keyed_name="World" type="Identity">
+     <Item type="Identity" action="get" select="id">
+      <name>World</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RAT Project Baselined" type="Permission">B0A9864CB1A14CC889F38251C34C5807</source_id>
+   </Item>
+  </Relationships>
+ </Item>
+</AML>

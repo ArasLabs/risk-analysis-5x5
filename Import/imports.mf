@@ -1,0 +1,3 @@
+<imports>
+  <package name="RAT5x5" path="RAT5x5\Import" />
+</imports>

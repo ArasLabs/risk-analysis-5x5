@@ -1,0 +1,30 @@
+﻿<AML>
+ <Item type="Method" id="3CAEE985845A43AB9C8A8B60E9E3EB80" action="add">
+  <method_code><![CDATA[// RAT   risk analysis tool
+//     5x5 scatter plot of the Risk Worksheet
+//
+//  using original risk values not mitigated?
+//
+// peter  06.27.2008
+//
+// ===================================================
+
+// find the max Consequence and the Probability
+//debugger;
+var prob = document.thisItem.getProperty("probability_c","1");
+
+var tech = document.thisItem.getProperty("technical_impact_c","1");
+var sched = document.thisItem.getProperty("schedule_impact_c","1");
+var cost = document.thisItem.getProperty("cost_impact_c","1");
+
+var newValue=1;
+if (parseInt(tech) > newValue) newValue=parseInt(tech);
+if (parseInt(sched) > newValue) newValue=parseInt(tech);
+if (parseInt(cost) > newValue) newValue=parseInt(tech);
+
+var cell = document.getElementById("r" + prob + newValue);
+cell.innerHTML="<center><b>X</b></center>";]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>RAT Worksheet Risk PLot</name>
+ </Item>
+</AML>
