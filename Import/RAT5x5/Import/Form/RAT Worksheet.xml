@@ -766,9 +766,9 @@
    </Item>
    <Item type="Form Event" id="B1B1DF6DA86F406E94B0064D40BB1EAB" action="add">
     <form_event>onformpopulated</form_event>
-    <related_id keyed_name="RAT Worksheet Risk PLot" type="Method">
+    <related_id keyed_name="RAT Worksheet Risk Plot" type="Method">
      <Item type="Method" action="get" select="id">
-      <name>RAT Worksheet Risk PLot</name>
+      <name>RAT Worksheet Risk Plot</name>
      </Item>
     </related_id>
     <sort_order>128</sort_order>

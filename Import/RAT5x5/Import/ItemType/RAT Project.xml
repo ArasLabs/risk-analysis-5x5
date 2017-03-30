@@ -10,7 +10,7 @@
   <is_relationship>0</is_relationship>
   <is_versionable>1</is_versionable>
   <label>Risk Assessment Tool</label>
-  <label_plural>Risk Tools</label_plural>
+  <label_plural>Risk Assessments</label_plural>
   <large_icon>../images/Icons/32x32/22x32_clipbrd.gif</large_icon>
   <manual_versioning>0</manual_versioning>
   <name>RAT Project</name>

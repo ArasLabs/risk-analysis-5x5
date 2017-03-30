@@ -1,0 +1,66 @@
+﻿<AML>
+ <Item type="Method" id="46D5F8F4FD014FAD91220D2E27FB7BC1" action="add">
+  <method_code><![CDATA[// RAT   risk analysis tool
+//     5x5 scatter plot of the Risk Project  (rollup of Worksheets
+//
+//
+// peter 08.08.2008  plot both Initial and Mitigated risk
+// =======================================================
+//debugger;
+var myQry = document.thisItem.newItem("RAT Worksheet","get");
+myQry.setProperty("source_id",document.thisItem.getID() );
+myQry.setAttribute("select","probability_c,probability_m,technical_impact_c,technical_impact_m,schedule_impact_c,schedule_impact_m,cost_impact_c,cost_impact_m");
+var results = myQry.apply();
+
+// var myCells = new Object();    // might use later to keep track of scatter plot
+var worksheets = results.getItemsByXPath("//Item[@type='RAT Worksheet']");
+for (var w=0; w< worksheets.getItemCount(); w++) {
+    var worksheet = worksheets.getItemByIndex(w);
+   // find the max Consequence and the Probability -- Initial Risk first
+
+   // get the Probability value first (left Y-axis in plot
+   var prob = worksheet.getProperty("probability_c","0");
+   if (prob !="0" ) {
+		// find the 3 values of technical, schedule and costs impacts
+		// and the highes value becomes the X-Axis
+		var tech = worksheet.getProperty("technical_impact_c","1");
+		var sched = worksheet.getProperty("schedule_impact_c","1");
+		var cost = worksheet.getProperty("cost_impact_c","1");
+		var newValue=1;
+		if (parseInt(tech) > newValue) newValue=parseInt(tech);
+		if (parseInt(sched) > newValue) newValue=parseInt(sched);
+		if (parseInt(cost) > newValue) newValue=parseInt(cost);
+		
+		// Plot the data point.
+		var cell = document.getElementById("r" + prob + newValue);
+		cell.innerHTML="<center><b>X</b></center>";
+    
+		// now plot the Mitigated levels   IF ANY
+		// get the Probability value first (left Y-axis in plot
+		//var prob = document.thisItem.getProperty("probability_m","");
+		//if (prob =="") return;
+		
+		// find the 3 values of technical, schedule and costs impacts
+		// and the highes value becomes the X-Axis
+		// var tech = document.thisItem.getProperty("technical_impact_m","0");
+		//var sched = document.thisItem.getProperty("schedule_impact_m","0");
+		// var cost = document.thisItem.getProperty("cost_impact_m","0");
+		// var newValue=0;
+		// if (tech=="" || isNaN(tech) ) return;
+		// if (parseInt(tech) > newValue) newValue=parseInt(tech);
+		// if (sched=="" || isNaN(sched) ) return;
+		// if (parseInt(sched) > newValue) newValue=parseInt(sched);
+		// if (cost=="" || isNaN(cost) ) return;
+		// if (parseInt(cost) > newValue) newValue=parseInt(cost);
+		
+		// Plot the data point for mitigated risk.. if it is not the same cell
+		//var cell2 = document.getElementById("r" + prob + newValue);
+		//if (cell != cell2) cell2.innerHTML="<center><b>m</b></center>";
+	  } // end of IF prob not blank
+} // end of loop 
+
+]]></method_code>
+  <method_type>JavaScript</method_type>
+  <name>RAT Project Risk Plot</name>
+ </Item>
+</AML>

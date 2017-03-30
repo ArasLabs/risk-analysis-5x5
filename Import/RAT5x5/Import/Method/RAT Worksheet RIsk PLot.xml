@@ -3,28 +3,51 @@
   <method_code><![CDATA[// RAT   risk analysis tool
 //     5x5 scatter plot of the Risk Worksheet
 //
-//  using original risk values not mitigated?
 //
 // peter  06.27.2008
-//
-// ===================================================
+// peter 08.08.2008  plot both Initial and Mitigated risk
+// =======================================================
+// find the max Consequence and the Probability -- Initial Risk first
 
-// find the max Consequence and the Probability
-//debugger;
+// get the Probability value first (left Y-axis in plot
 var prob = document.thisItem.getProperty("probability_c","1");
 
+// find the 3 values of technical, schedule and costs impacts
+// and the highes value becomes the X-Axis
 var tech = document.thisItem.getProperty("technical_impact_c","1");
 var sched = document.thisItem.getProperty("schedule_impact_c","1");
 var cost = document.thisItem.getProperty("cost_impact_c","1");
-
 var newValue=1;
 if (parseInt(tech) > newValue) newValue=parseInt(tech);
-if (parseInt(sched) > newValue) newValue=parseInt(tech);
-if (parseInt(cost) > newValue) newValue=parseInt(tech);
+if (parseInt(sched) > newValue) newValue=parseInt(sched);
+if (parseInt(cost) > newValue) newValue=parseInt(cost);
 
+// Plot the data point.
 var cell = document.getElementById("r" + prob + newValue);
-cell.innerHTML="<center><b>X</b></center>";]]></method_code>
+cell.innerHTML="<center><b>X</b></center>";
+
+// now plot the Mitigated levels   IF ANY
+// get the Probability value first (left Y-axis in plot
+var prob = document.thisItem.getProperty("probability_m","");
+if (prob =="") return;
+
+// find the 3 values of technical, schedule and costs impacts
+// and the highes value becomes the X-Axis
+var tech = document.thisItem.getProperty("technical_impact_m","0");
+var sched = document.thisItem.getProperty("schedule_impact_m","0");
+var cost = document.thisItem.getProperty("cost_impact_m","0");
+var newValue=0;
+if (tech=="" || isNaN(tech) ) return;
+if (parseInt(tech) > newValue) newValue=parseInt(tech);
+if (sched=="" || isNaN(sched) ) return;
+if (parseInt(sched) > newValue) newValue=parseInt(sched);
+if (cost=="" || isNaN(cost) ) return;
+if (parseInt(cost) > newValue) newValue=parseInt(cost);
+
+// Plot the data point for mitigated risk.. if it is not the same cell
+var cell2 = document.getElementById("r" + prob + newValue);
+if (cell != cell2) cell2.innerHTML="<center><b>m</b></center>";]]></method_code>
   <method_type>JavaScript</method_type>
-  <name>RAT Worksheet Risk PLot</name>
+  <name>RAT Worksheet Risk Plot</name>
  </Item>
 </AML>

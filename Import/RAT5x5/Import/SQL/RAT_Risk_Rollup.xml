@@ -1,0 +1,24 @@
+﻿<AML>
+ <Item type="SQL" id="F62515F0881A4619BCE07DDC51BF2592" action="add">
+  <execution_count>3</execution_count>
+  <execution_flag>manual</execution_flag>
+  <name>RAT_Risk_Rollup</name>
+  <old_name>RAT_Risk_Rollup</old_name>
+  <sqlserver_body><![CDATA[CREATE TRIGGER [RAT_Risk_Rollup] ON [innovator].[RAT_Project] 
+FOR UPDATE
+AS
+/*
+This trigger rolls up the risk from worksheets on this RAT Project
+*/
+ 
+UPDATE RAT_Project
+SET   max_rating = (select sum(CAST(probability_c as Integer) * CAST(cost_impact_c as Integer) * CAST(technical_impact_c as integer) * CAST(schedule_impact_c as Integer))  from RAT_Worksheet where 
+RAT_Worksheet.source_id=RAT_Project.id) 
+from RAT_Project, inserted
+where RAT_Project.id=inserted.id
+]]></sqlserver_body>
+  <stale>0</stale>
+  <transform_first>0</transform_first>
+  <type>trigger</type>
+ </Item>
+</AML>

@@ -149,7 +149,7 @@
       <font_family>arial, helvetica, sans-serif</font_family>
       <font_size>8pt</font_size>
       <font_weight>bold</font_weight>
-      <is_disabled>0</is_disabled>
+      <is_disabled>1</is_disabled>
       <is_visible>1</is_visible>
       <label>Max Risk: </label>
       <label_position>left</label_position>
@@ -194,7 +194,7 @@
       <field_type>html</field_type>
       <font_color>#000000</font_color>
       <font_family>arial, helvetica, sans-serif</font_family>
-      <font_size>8pt</font_size>
+      <font_size>14pt</font_size>
       <font_weight>bold</font_weight>
       <html_code><![CDATA[<table width="220" height="180" border="0" cellpadding="0"  cellspacing="0" style="font-size:7pt; font-family: tahoma, arial, helvetica, sans-serif;text-decoration: none; background-color:beige;">
 <tr >
@@ -254,7 +254,9 @@
 </table>]]></html_code>
       <is_disabled>0</is_disabled>
       <is_visible>1</is_visible>
-      <legend>5x5 Plot</legend>
+      <label>5x5 Plot</label>
+      <label_position>top</label_position>
+      <legend></legend>
       <list_no_blank>0</list_no_blank>
       <name>risk_plot</name>
       <positioning>absolute</positioning>
@@ -263,8 +265,8 @@
       <source_id keyed_name="8D5D1F86AAEC4F7782C84C8E0D95CE20" type="Body">8D5D1F86AAEC4F7782C84C8E0D95CE20</source_id>
       <tab_index>3486</tab_index>
       <tab_stop>1</tab_stop>
-      <x>553</x>
-      <y>6</y>
+      <x>552</x>
+      <y>0</y>
      </Item>
      <Item type="Field" id="9B2B29E32DDE4BAD83E6AADBADE95EE6" action="add">
       <bg_color>#FFFFFF</bg_color>
@@ -289,6 +291,16 @@
       <y>9</y>
      </Item>
     </Relationships>
+   </Item>
+   <Item type="Form Event" id="93CE1B6C67EB4065B5F1CDF6545AAFA4" action="add">
+    <form_event>onformpopulated</form_event>
+    <related_id keyed_name="RAT Project Risk Plot" type="Method">
+     <Item type="Method" action="get" select="id">
+      <name>RAT Project Risk Plot</name>
+     </Item>
+    </related_id>
+    <sort_order>128</sort_order>
+    <source_id keyed_name="RAT Project" type="Form">AC11900EA3924069B71702283AC8572E</source_id>
    </Item>
   </Relationships>
  </Item>
