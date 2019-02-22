@@ -1,3 +1,8 @@
+>## Archived Aras Community Project
+*This project has been migrated to GitHub from the old Aras Projects page (http://www.aras.com/projects). As an Archived project, this project is no longer being actively developed or maintained.*
+
+>*For current projects, please visit the new Aras Community Projects page on the updated Aras Community site: http://community.aras.com/projects*
+
 # Risk Analysis Tool 5x5
 
 Risk Analysis using Workbooks, Worksheets and 5x5 analysis.
